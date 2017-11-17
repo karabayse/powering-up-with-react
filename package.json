@@ -1,0 +1,24 @@
+{
+  "name": "powering-up-with-react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "client.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karabayse/powering-up-with-react.git"
+  },
+  "author": "Kara Bayse",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/karabayse/powering-up-with-react/issues"
+  },
+  "homepage": "https://github.com/karabayse/powering-up-with-react#readme",
+  "dependencies": {
+    "babel": "^6.23.0",
+    "react": "^16.1.1",
+    "react-dom": "^16.1.1"
+  }
+}

@@ -39,5 +39,8 @@
     }
 
     ReactDOM.render(
+      // takes 2 arguments
+      // Every time we create a new React component, we use it by writing an
+      // element named after the class
       <StoryBox />, document.getElementById('story-app')
     );
