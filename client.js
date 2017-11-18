@@ -1,7 +1,7 @@
 // React is a JS library for building user interfaces (UIs)
 // Some people use it as the V in MVC (Model-View-Controller)
 // React was built so solve one problem:
-// Building large applications with data that changes over time
+// BUILDING LARGE APPLICATIONS WITH DATA THAT CHANGES OVER TIME
 // Conceived at Facebook:
 // Built to simplify the process of building complex UIs
 
@@ -16,8 +16,8 @@
 // In React, we solve problems by creating components
 // If a component gets too complex, we break it into smaller, simpler components
 // 1. StoryBox: Root component
-// 2. StoryForm
-// 3. Story
+// 2. StoryForm: Contains form that allows users to add new stories to the feed
+// 3. Story: Holds info for each individual story
 // Components work similarly to JS functions:
 // Components generate an output each time they are invoked
 
@@ -44,3 +44,8 @@
       // element named after the class
       <StoryBox />, document.getElementById('story-app')
     );
+
+
+    // JSX is another way of writing JS with a transpile step
+    // JSX = JavaScript XML
+    
