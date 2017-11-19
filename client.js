@@ -33,8 +33,18 @@
       // every component needs a render() function
       // render() returns some Markup
       render() {
+        const now = new Date();
                  // no quotes needed due to JSX
-        return(<div>Story Box</div>)
+        return(
+          <div>
+            <h3>Stories App</h3>
+            <p className="lead">
+                          // code written within curly brackets gets
+                          // interpreted as literal JavaScript 
+              Current time: {now.toTimeString()}
+              </p>
+          </div>
+        )
       }
     }
 
@@ -48,4 +58,3 @@
 
     // JSX is another way of writing JS with a transpile step
     // JSX = JavaScript XML
-    
